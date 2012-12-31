@@ -1,0 +1,89 @@
+body {
+	font-family: Helvetica;
+	overflow: hidden;
+	background-image: url('boston1.jpg');
+	background-repeat: no-repeat;
+}
+
+header {
+	background-color: rgba(20,20,20,.8);
+	/*background-color:#404040; */
+	position:relative;
+	top:120px;
+	height: 230px;
+	width: 2000px;
+	left:-10px;
+	border-color: black;
+	border-width: 10px;
+	border-style: solid;
+}
+
+#home
+{
+	margin-top: -10px;
+	margin-left: -20px;
+	margin-right: -20px;
+}
+
+#home img{
+    display: inline-block;
+    margin-left: 40px;
+    position: relative;
+    top: 60px;
+}
+
+#aboutme{
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 260px;
+    position: relative;
+    top: 76px;
+    width: 400px;
+    line-height: 120%;
+    text-align: justify;
+}
+
+#home nav{
+	position: relative;
+	margin-left: 70px;
+	top:-17px;
+}
+
+#home a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight:bold;
+	font-family: Helvetica;
+	font-size: 20px;
+	position:relative;
+	top: 70px;
+	margin-right: 43px;
+	
+	-webkit-transition: all 0.5s ease; -moz-transition: all 0.5s ease; -o-transition: all 0.5s ease;
+ -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1))); } #ex5 img:hover { opacity: 1; 
+ -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.4)));
+  -webkit-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); -moz-box-shadow: 0px 0px 20px rgba(255,255,255,0.8); box-shadow: 0px 0px 20px rgba(255,255,255,0.8);
+ 
+}
+
+#home a:hover{
+	color:#545454;
+}
+
+#contact{
+}
+
+#contactinfo{
+	list-style:none;
+	font-size: 25px;
+	font-family: 'Allerta Stencil', sans-serif;
+	position:relative;
+	left: 120px;
+}
+
+.page{
+	height: 12000px;
+}
+
+
